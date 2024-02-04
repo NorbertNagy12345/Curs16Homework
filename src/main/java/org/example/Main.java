@@ -5,7 +5,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        CountryReader countryReader = new CountryReader(src/main/resources/countries.txt);
+        CountryReader countryReader = new CountryReader("src/main/resources/countries.txt");
 
 
         CountryService countryService = countryReader.getCountryService();
